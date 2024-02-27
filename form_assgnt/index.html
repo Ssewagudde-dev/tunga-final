@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <h2>Interest form</h2>
+      <section>
+        <label for="name">Name:</label><br />
+        <input type="text" class="name" name="name" placeholder="Enter name" />
+        <label for="age">Age:</label><br />
+        <input type="number" class="age" name="age" placeholder="Enter age" />
+        <label for="email">Email:</label><br />
+        <input type="email" class="email" name="" placeholder="Enter email" />
+      </section>
+      <section>
+        <label for="experience">Experience Level:</label><br />
+        <select name="experience" id="experience">
+          <option value="hobbyist">Hobbyist</option>
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">Professional</option>
+        </select>
+      </section>
+      <section class="radio-group">
+        <legend>Operating System:</legend>
+        <div>
+          <input type="radio" name="linux" id="linux" value="Linux" />
+          <label for="linux">Linux</label>
+        </div>
+        <div>
+          <input type="radio" name="macos" id="macos" value="MacOS" />
+          <label for="macos">MacOS</label>
+        </div>
+        <div>
+          <input type="radio" name="windows" id="windows" value="Windows" />
+          <label for="windows">Windows</label>
+        </div>
+      </section>
+      <section>
+        <legend>Programming Languages of Interest:</legend>
+        <div>
+          <input type="checkbox" name="c" id="c" value="C" />
+          <label for="c">C</label>
+        </div>
+        <div>
+          <input type="checkbox" name="c-plus" id="c-plus" value="C++" />
+          <label for="c-plus">C++</label>
+        </div>
+        <div>
+          <input type="checkbox" name="c#" id="c#" value="C#" />
+          <label for="c#">C#</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="javascript"
+            id="javascript"
+            value="JavaScript"
+          />
+          <label for="javascript">JavaScript</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="typescript"
+            id="typescript"
+            value="TypeScript"
+          />
+          <label for="typescript">TypeScript</label>
+        </div>
+      </section>
+      <label for="comments">Comments:</label><br />
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
