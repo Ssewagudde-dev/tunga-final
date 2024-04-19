@@ -45,6 +45,19 @@ img {
 .header-content h2 {
   margin-bottom: 20px;
 }
+.middle {
+  position: relative;
+}
+
+.new {
+  background-color: pink;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 3px;
+  position: absolute;
+  top: -25px;
+  left: 5px;
+}
 
 .manager {
   display: flex;
